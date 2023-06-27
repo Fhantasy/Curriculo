@@ -3,7 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar {
+  background: #696969;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #232323;
+}
 body {
   background-color: #232323;
   color: #f7f6f6;
@@ -280,8 +289,7 @@ footer p i {
 }
 @media (max-width: 700px) {
   header {
-    height: auto;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
   }
   .presentationLeft h1 {
     font-size: 50px;
