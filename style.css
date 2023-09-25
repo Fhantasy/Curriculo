@@ -260,6 +260,9 @@ header {
   transform: scale(110%);
   color: #f7f6f6;
 }
+.modalContainer {
+  max-width: 80vw;
+}
 .closeModalIcon {
   font-weight: bold;
   background-color: white;
@@ -318,6 +321,9 @@ footer p i {
   }
   .aboutSection p {
     width: 90%;
+  }
+  .modalContainer {
+    max-width: 97vw;
   }
 }
 @media (max-width: 470px) {
