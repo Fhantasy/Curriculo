@@ -16,6 +16,7 @@
 body {
   background-color: #232323;
   color: #f7f6f6;
+  line-height: 23px;
 }
 nav {
   display: flex;
@@ -165,12 +166,16 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  font-family: "Bitter", sans-serif;
   width: 200px;
   height: 200px;
   background-color: #f1cf0b;
   color: black;
   padding: 10px;
+}
+.tecnologyCard h2 {
+  font-family: "Bitter", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
 }
 .tecnologyCard img {
   height: 80%;
@@ -227,11 +232,12 @@ header {
   border: 2px solid #fec63d;
   padding: 15px;
   border-radius: 5px;
-  width: 450px;
-  height: 500px;
+  width: 480px;
+  height: 550px;
 }
 .projectCard img {
   width: 100%;
+  cursor: pointer;
 }
 .projectCard h2 {
   margin: 10px 0;
@@ -253,6 +259,18 @@ header {
 .cardLinks a:hover {
   transform: scale(110%);
   color: #f7f6f6;
+}
+.closeModalIcon {
+  font-weight: bold;
+  background-color: white;
+  width: 21px;
+  height: 21px;
+  text-align: center;
+  color: black;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  cursor: pointer;
 }
 footer {
   text-align: center;
@@ -332,8 +350,5 @@ footer p i {
   }
   .tecnologiesLeft p {
     font-size: 16px;
-  }
-  .projectCard {
-    height: 450px;
   }
 }
